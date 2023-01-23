@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-font-family: 'Inter';
+    
+    --primary-font-style: normal;
+
+    --font-weight-bold: 600;
+    --font-weight-regular: 500;
+    --font-weight-thin: 400;
+
+    --font-size-lg: 24px;
+    --font-size-md: 16px;
+    --font-size-sm: 14px;
+
+    --line-height-lg: 32px;
+    --line-height-md: 24px;
+    --line-height-sm: 20px;
+    
+    --color-black: #101828;
+    --color-light-grey: #475467;
+    --color-3:#344054;
+    --color-4: #6941C6;
+
+    --button-background-color: #7F56D9 ;
+    --button-text-color: #FFFFFF;
+}
+
 body > div {
     min-width: fit-content;
     min-height: 100vh;
