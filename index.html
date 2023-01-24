@@ -89,7 +89,7 @@
                    </div>
 
                 </section>
-                <section id="personal-info">
+                <section class="personal-info">
                     <div class="section-intro">
                         <h3>Personal info</h3>
                         <p>Update your photo and personal details.</p>
@@ -128,13 +128,98 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="divider"></div>
                         <div class="form-footer">
                             <button class="cancel-button">Cancel</button>
                             <button class="save-button">Save changes</button>
                         </div>
                     </div>
                 </section>
-                <section id="profile-info"></section>
+                <section class="personal-info">
+                    <div class="section-intro">
+                        <h3>Profile</h3>
+                        <p>Update your portfolio and bio.</p>
+                    </div>
+                    <div class="form">
+                        <div class="form-content">
+                            <div id="project-availability">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                                <div class="section-intro">
+                                    <h3>Available for projects</h3>
+                                    <p>I’m open and available for freelance work.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="form-input" id="username-wrapper">
+                                <div><label for="uname">Username</label></div>
+                                <div class="username">
+                                    <div class="addon">
+                                        untitledui.com/
+                                    </div>
+                                    <input type="text" id="uname" placeholder="olivia">
+                                </div>
+                            </div>
+                            <div class="form-input" id="website-wrapper">
+                                <div><label for="web">Website</label></div>
+                                <div class="username">
+                                    <div class="addon">
+                                        http://
+                                    </div>
+                                    <input type="text" id="web" placeholder="www.untitledui.com">
+                                </div>
+                            </div>
+                            <div class="form-input" id="description-wrapper">
+                                <div><label for="desc">Description</label></div>
+                                
+                                <div>
+                                    <textarea id="desc" name="description" >I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategy, and Webflow development.
+                                    </textarea>
+                                    <p>275 characters left</p>
+                                </div>
+                            </div>
+                            <div id="font-style">
+                                <select name="font" class="dropdown" id="font">
+                                    <option value="Regular">Regular</option>
+                                </select>
+
+                                <div id="font-icons">
+                                    <img src="images/bold.svg" alt="bold icon">
+                                    <img src="images/italics.svg" alt="italics icon">
+                                    <img src="images/attach.svg" alt="attach icon">
+                                    <img src="images/bullets.svg" alt="bullet list icon">
+                                    <img src="images/numbered.svg" alt="numbered list icon">
+
+                                </div>
+
+                            </div>
+                            
+                            <div class="form-input" id="country-wrapper">
+                                <div><label for="country">Country</label></div>
+                                <select name="country" class="dropdown" id="country">
+                                    <option value="Australia">
+                                        Australia
+                                    </option>
+                                </select>
+                                
+                            </div>
+                            <div class="form-input" id="timezone-wrapper">
+                                <div><label for="timezone">Timezone</label></div>
+                                <select name="timezone" class="dropdown" id="timezone">
+                                    <option value="UTC−08">PST UTC−08:00</option>
+                                </select>
+                            
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="form-footer">
+                            <button class="cancel-button">Cancel</button>
+                            <button class="save-button">Save changes</button>
+                        </div>
+                    </div>
+                </section>
             </main>
         </div>
     </body>
